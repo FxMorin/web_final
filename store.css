@@ -1,0 +1,84 @@
+
+/* MAIN PAGE */
+html,body {
+  margin:0px !important;
+  padding:0px !important;
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+.nav {
+  width:100%;
+  background-color: RGB(25,70,37);
+  padding: 20px 10px 20px 10px;
+}
+.navlogo {
+  width: 85px;
+  height: 85px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+}
+.navlogo > img {
+  width:auto;
+  height:100%;
+}
+.navitem {
+  margin:4px;
+  padding:12px;
+  background-color: RGB(8,100,16);
+  border-radius:6px;
+  color:white;
+  font-size: 16px;
+  font-family: "Lucida Console", Courier, monospace;
+  display:inline-block;
+}
+.navitem:hover {
+  background-color: RGB(0,142,0);
+}
+.navitemselected {
+  background-color: RGB(1,128,1);
+  text-decoration: underline;
+}
+
+/* PRODUCTS */
+.products {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.products > div {
+  width:30vmin;
+  height: auto;
+  background-color: #c1c1c1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  display:inline-block;
+  position:relative;
+}
+.products > div > div {
+  font-family: monospace;
+  font-size: 3.95vmin;
+}
+.products > div > span {
+  font-family: sans-serif;
+  font-size: 3.5vmin;
+}
+
+.products > div > button {
+  background-color:rgb(200,200,200);
+  border-radius: 2px;
+  border-style: solid;
+  padding:8px 14px 8px 14px;
+  margin:4px;
+}
+
+.products > div > iframe {
+  width:30vmin;
+  height:30vmin;
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
+  overflow: hidden;
+}
