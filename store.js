@@ -115,8 +115,8 @@ function generateVirus(canvas,ctx) {
   function setCoreSize() {
     size = (width * 0.7) * Math.random();
     size = size;
-    if (size > VirusSize-60){
-      size = VirusSize-60;
+    if (size > VirusSize-70){
+      size = VirusSize-70;
     } else if (size < 10) {
       size = 10;
     }
