@@ -9,7 +9,7 @@ window.onload = function(){
     var cost = Math.floor(Math.random()*999);
     virusName = nm1[Math.floor(Math.random()*nm1.length)]+" "+nm2[Math.floor(Math.random()*nm2.length)];
     var severity = (Math.random()*100);
-    products.innerHTML += "<div><iframe src='virus.html'></iframe><div class='product-title'><b>"+virusName+"</b></div><span>Cost: $"+cost+"k</span><button>Buy</button><div style='width:100%'><div class='severity2'>Severity:</div><div class='severity'><div style='border-radius:12px;background-color:hsla("+severity+", 100%, 40%, 1);width:"+severity+"%;height:100%;'></div></div></div></div>";
+    products.innerHTML += "<div><iframe src='virus.html'></iframe><div class='product-title'><b>"+virusName+"</b></div><span>Cost: $"+cost+"k</span><button>Buy</button><div style='width:100%'><div class='severity2'>Severity:</div><div class='severity'><div style='border-radius:12px;background-color:hsla("+(100-severity)+", 100%, 40%, 1);width:"+severity+"%;height:100%;'></div></div></div></div>";
   }
   var slider = document.getElementById("amount");
   var output = document.getElementById("amountValue");
