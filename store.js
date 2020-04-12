@@ -14,8 +14,6 @@ function afterResizeAll() {
 }
 window.addEventListener('resize', onResizeAll);
 
-//var severity = (Math.random()*10).toFixed(1);
-
 
 
 
@@ -115,8 +113,8 @@ function generateVirus(canvas,ctx) {
   function setCoreSize() {
     size = (width * 0.7) * Math.random();
     size = size;
-    if (size > VirusSize-70){
-      size = VirusSize-70;
+    if (size > VirusSize-60){
+      size = VirusSize-68;
     } else if (size < 10) {
       size = 10;
     }
