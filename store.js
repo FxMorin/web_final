@@ -27,7 +27,7 @@ window.addEventListener('resize', onResizeAll);
 
 function generateVirus(canvas,ctx) {
   const ParticleCount = (Math.random()*700)+250; // Particle count for virus shell (250-950)
-  const ParticleSize = 1 + parseFloat((Math.random()*2).toFixed(1));
+  const ParticleSize = 2 + parseFloat((Math.random()*2).toFixed(1));
   canvas.width = canvas.clientWidth;
   canvas.height = canvas.clientHeight;
 
